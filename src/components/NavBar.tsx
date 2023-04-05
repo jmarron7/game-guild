@@ -1,6 +1,5 @@
-import { HStack, Image } from "@chakra-ui/react";
+import { Heading, HStack, Image } from "@chakra-ui/react";
 import logo from "../assets/gg-logo.webp";
-import ColorModeSwitch from "./ColorModeSwitch";
 import SearchInput from "./SearchInput";
 
 interface Props {
@@ -10,9 +9,12 @@ interface Props {
 const NavBar = ({ onSearch }: Props) => {
   return (
     <HStack padding="10px">
-      <Image src={logo} boxSize="60px"></Image>
+      <HStack>
+        <Image src={logo} boxSize="60px"></Image>
+        <Heading fontSize={20}>Game Guild</Heading>
+      </HStack>
+
       <SearchInput onSearch={onSearch} />
-      <ColorModeSwitch />
     </HStack>
   );
 };
