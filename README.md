@@ -1,4 +1,4 @@
-![Game Guild](src/assets/gg-full-logo.png)
+![Game Guild](src/assets/gg-full-logo)
 
 [**Game Guild**](https://game-guild.vercel.app/) is a website that fetches video game data from [**RAWG API**](https://rawg.io/) and displays various information about over 500,000 games.
 
