@@ -18,6 +18,7 @@
 
 ## Future Features
 
+- Allow mobile users to filter games by genre
 - Fetch more games in batches as user scrolls on page
 - Display further information on game whenever user clicks on a game's card
 - Allow users to rate games themselves and display a _User Score_ on cards
